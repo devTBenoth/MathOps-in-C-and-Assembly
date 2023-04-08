@@ -1,8 +1,5 @@
 BITS 32
 
-section .data
-   pResult: db "%d", 10, 0
-
 section .text
   global add_numbers
   global sub_numbers
