@@ -21,7 +21,7 @@ void calculator(int op, int x, int y) {
 }
 
 int main(int argc, int **argv[]) {
-    if (argv[1] == NULL || argv[2] == NULL || argv[3] == NULL) {
+    if (argc < 3) {
         printf("Please enter an operation\n");
         return 0;
     }
